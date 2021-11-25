@@ -1,2 +1,2 @@
-# apeperia
- Loja de aplicativos
+# projeto-apeperia
+Arquivos do projeto para a Apeperia
