@@ -1,4 +1,6 @@
-# projeto-apeperia
-
 <h1>🔖 Sobre</h1>
-<p>Arquivos do projeto para a Apeperia</p>
+<p>Página inicial de uma loja de aplicativos/p>
+  <ul>
+    <li>Responsivo, baseado no conceito de mobile first;</li>
+    <li>Inclusivo;</li>
+  </ul>
