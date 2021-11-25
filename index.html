@@ -14,6 +14,9 @@
     <link rel="stylesheet" href="css/destaques.css">
     <link rel="stylesheet" href="css/diferenciais.css">
     <link rel="stylesheet" href="css/sobre.css">
+    <link rel="stylesheet" href="css/planos.css">
+    <link rel="stylesheet" href="css/contato.css">
+    <link rel="stylesheet" href="css/institucional.css">
     <title>Home | Apeperia</title>
 </head>
 <body>
@@ -55,17 +58,17 @@
         </section>
         <section class="diferenciais container">
             <ul class="diferenciais__lista">
-                <li class="diferenciais__item">
+                <li class="diferenciais__item diferenciais__item--tempo">
                     <h2 class="item__titulo">Tempo</h2>
                     <p class="item__texto">Tempo é importante! Trabalhamos em ritmo acelerado, atendendo rigorosamente aos
                         prazos.</p>
                 </li>
-                <li class="diferenciais__item">
+                <li class="diferenciais__item diferenciais__item--foco" >
                     <h2 class="item__titulo">Foco</h2>
                     <p class="item__texto">Focamos no empreendimento! Oferecemos serviços de qualidade com preços acessíveis.
                     </p>
                 </li>
-                <li class="diferenciais__item">
+                <li class="diferenciais__item diferenciais__item--especialistas">
                     <h2 class="item__titulo">Especialistas</h2>
                     <p class="item__texto">Equipe experiente e especializada! Testamos todos os produtos antes do lançamento.
                     </p>
@@ -94,6 +97,60 @@
             </div>
             <img src="img/sobre-apeperia.png" alt="Sobre a Apeperia" class="sobre__imagem">
         </section>
+            <section class="planos container">
+                <h2 class="planos__titulo">Planos</h2>
+                <ul class="planos__cartoes">
+                    <li class="cartao cartao--start">
+                        <h3 class="cartao__titulo">Start</h3>
+                        <article class="cartao__conteudo">
+                            <p class="cartao__preco"><em>R$ 500</em></p>
+                            <p class="cartao__texto">5 manutenções mensais</p>
+                            <p class="cartao__texto">App SEO</p>
+                            <p class="cartao__texto">1 sistema operacional</p>
+                            <a href="plano.html" class="cartao__botao cartao__botao--start botao">Assinar plano</a>
+                        </article>
+                    </li>
+                    <li class="cartao cartao--ultra">
+                        <h3 class="cartao__titulo">Ultra</h3>
+                        <article class="cartao__conteudo">
+                            <p class="cartao__preco"><em>R$ 1500</em></p>
+                            <p class="cartao__texto">20 manutenções mensais</p>
+                            <p class="cartao__texto">App SEO</p>
+                            <p class="cartao__texto">4 sistemas operacionais</p>
+                            <p class="cartao__texto">24h de atendimento</p>
+                            <a href="" class="cartao__botao cartao__botao--ultra botao">Assinar plano</a>
+                        </article>
+                    </li>
+                    <li class="cartao cartao--mega">
+                        <h3 class="cartao__titulo">Mega</h3>
+                        <p class="cartao__preco"><em>R$ 1000</em></p>
+                        <article class="cartao__conteudo">
+                            <p class="cartao__texto">10 manutenções mensais</p>
+                            <p class="cartao__texto">App SEO</p>
+                            <p class="cartao__texto">2 sistemas operacionais</p>
+                            <a href="" class="cartao__botao cartao__botao--mega botao">Assinar plano</a>
+                        </article>
+                    </li>
+                </ul>
+            </section>
+            <section class="contato container">
+                <h2 class="contato__titulo">Contato</h2>
+                <p>Entre em contato com a gente</p>
+                <a href="contato.html" class="contato__botao botao">Entre em contato</a>
+            </section>
+            <section class="institucional container">
+                <h2 class="institucional__titulo">Institucional</h2>
+                <p class="institucional__descricao">Um pouco mais sobre a Apeperia</p>
+                <address class="institucional__endereco">
+                    Rua Vergueiro, 3185<br>
+                    Vila Mariana, São Paulo
+                    <article class="institucional__contato">
+                        <p><a href="tel:+551155712751" class="institucional__contato-telefone">(11) 5571-2751</a> ou
+                             <a href="mailto:contato@apeperia.com" class="institucional__contato-email">contato@apeperia.com</a></p>
+                    </article>
+                </address>
+                <video src="img/formacao-java.mp4" class="institucional__video" controls></video>
+            </section>
     </main>
 
 

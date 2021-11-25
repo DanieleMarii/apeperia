@@ -13,8 +13,21 @@
     max-width: 350px;
 
     box-sizing: border-box;
-
+    background-repeat: no-repeat;
+    background-position: top 1.25rem left 2.5rem;
     padding: 2rem 0 2rem 5rem;
+}
+
+.diferenciais__item--tempo{
+    background-image: url(../img/icone-relogio.png);
+}
+
+.diferenciais__item--foco{
+    background-image: url(../img/icone-dinheiro.png);
+}
+
+.diferenciais__item--especialistas{
+    background-image: url(../img/icone-quimica.png);
 }
 
 .item__titulo {
