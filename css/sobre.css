@@ -38,19 +38,25 @@
 }
 
 @media screen and (min-width: 1024px) {
-    .sobre{
+    .sobre {
         display: flex;
     }
 
-    .sobre__conteudo{
+    .sobre__conteudo {
         margin-right: 3rem;
     }
 
-    .sobre__titulo{
+    .sobre__titulo {
         text-align: left;
     }
 
-    .sobre__imagem{
+    .sobre__texto--divisao {
+        border-bottom: 1px solid var(--cinza-medio);
+
+        padding-bottom: 1.5rem;
+    }
+
+    .sobre__imagem {
         display: block;
     }
 }
