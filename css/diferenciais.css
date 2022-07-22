@@ -1,54 +1,62 @@
+
 .diferenciais {
-    padding-top: 3.5rem;
-    padding-bottom: 3.5rem;
+  text-align: center;
 }
 
-.diferenciais__lista {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+.diferenciais-diferencial {
+  margin: 0 3em 2em 3em;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  max-width: 350px;
+  padding-left: 4em;
 }
 
-.diferenciais__item {
-    max-width: 350px;
+.diferenciais-diferencial-titulo {
+  color: #4F4C4C;
+  font-size: 1.2em;
+  margin-top: .9em;
+  margin-bottom: .6em;
 
-    box-sizing: border-box;
-    background-repeat: no-repeat;
-    background-position: top 1.25rem left 2.5rem;
-    padding: 2rem 0 2rem 5rem;
+  background-repeat: no-repeat;
+  background-position: left center;
+  height: 2.5em;
+  padding-left: 42px;
+  padding-top: .5em;
+  transform: translateX(-42px);
+  text-transform: uppercase;
 }
 
-.diferenciais__item--tempo{
-    background-image: url(../img/icone-relogio.png);
+.diferenciais-diferencial-titulo--tempo {
+  background-image: url(../img/icone-relogio.png);
 }
 
-.diferenciais__item--foco{
-    background-image: url(../img/icone-dinheiro.png);
+
+.diferenciais-diferencial-titulo--foco {
+  background-image: url(../img/icone-dinheiro.png);
 }
 
-.diferenciais__item--especialistas{
-    background-image: url(../img/icone-quimica.png);
+
+.diferenciais-diferencial-titulo--especialistas {
+  background-image: url(../img/icone-quimica.png);
 }
 
-.item__titulo {
-    color: var(--cinza-escuro);
-    font-weight: 700;
-    font-size: 1.2rem;
-    text-transform: uppercase;
 
-    margin-bottom: 1.5rem;
+
+
+@media (min-width: 830px) {
+
+
+  .secaoDiferenciais {
+    padding-bottom: 0;
+    background-color: #f7f4f4;
+  }
+
+
+  .diferenciais-diferencial {
+    margin: 0 .5em;
+    font-size: .9em;
+    max-width: 260px;
+  }
+
 }
-
-.item__texto {
-    line-height: normal;
-}
-
-@media screen and (min-width: 1024px){
-    .diferenciais{
-        background-color: var(--cinza-claro);
-    }
-    
-    .diferenciais__lista{
-        justify-content: space-around;
-    }
-    }
